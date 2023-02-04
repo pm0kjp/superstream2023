@@ -42,8 +42,7 @@ Concern:
     * Adding a new bucket
     * Adding files and folders to a bucket
 * [Adding a dataset to BigQuery](adding_dataset.md)
-* [Adding data to a dataset in BigQuery](adding_data_to
-_dataset.md)
+* [Adding data to a dataset in BigQuery](adding_data_to_dataset.md)
     - From files in Google Cloud Storage
     - From local data
     - From third party connections (e.g. AWS, Azure)
@@ -78,7 +77,7 @@ Your **hacker** is a data analyst who loves working in a Jupyter notebook for qu
 
 Concern: 
 
-"How can I access BigQuery data from a notebook?"
+> "How can I access BigQuery data from a notebook?"
 
 **Info for the Hacker:**
 
