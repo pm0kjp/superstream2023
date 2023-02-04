@@ -14,4 +14,15 @@ This is Google's own intro to the integration between Colab and BigQuery.
 
 3.  Save a copy of this notebook by clicking on "Copy to Drive" or File > Save a copy in Drive.
 
-4.  Use the method you prefer in a new notebook (File > New notebook) by using copy / paste.  Note that you'll also have to provide authentication into GCP.
+4.  Use the method you prefer in a new notebook (File > New notebook) by using copy / paste.  
+
+5.  Add your project id (read on below if you're not sure how to find this) in the appropriate place:
+
+  * If you use "BigQuery via magics", find where "yourprojectid" is mentioned and replace it with the quoted string of your project ID.
+  * If you use "BigQuery through google-cloud-bigquery", find where [your project ID] is mentioned and replace that with your project ID.
+  * If you use "BigQuery through pandas-gbq", find the text "project_id=project_id" and replace the second "project_id" with your quoted project ID string.
+
+6. To actually use BigQuery, you'll need to use SQL queries to obtain data.  Learning SQL is beyond the scope of this repository, but there are some good examples to get you started in Google's sample notebook.
+
+7. Don't forget [authentication](authenticating_in_colab.md)!
+

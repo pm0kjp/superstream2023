@@ -42,7 +42,8 @@ Concern:
     * Adding a new bucket
     * Adding files and folders to a bucket
 * [Adding a dataset to BigQuery](adding_dataset.md)
-* Adding data to a dataset in BigQuery
+* [Adding data to a dataset in BigQuery](adding_data_to
+_dataset.md)
     - From files in Google Cloud Storage
     - From local data
     - From third party connections (e.g. AWS, Azure)
@@ -66,7 +67,7 @@ Concern:
 
 Tasks this crew member will be interested in:
 
-* Dashboarding in Data Studio
+* [Dashboarding in Data Studio](dashboarding.md)
 
 
 ## Hacker
@@ -87,7 +88,7 @@ Concern:
 
 **Tasks this crew member will be interested in:**
 
-* Automatic creation of Colab boilerplate
+* [Automatic creation of Colab boilerplate](colab_boilerplate.md)
 * [Manual method: authenticating to GCP in a Colab notebook](authenticating_in_colab.md)
 * [Manual method: adding BigQuery data in a Colab notebook](adding_bigquery_to_colab.md)
 
@@ -112,6 +113,6 @@ Concern:
 
 **Tasks this crew member will be interested in:**
 
-* [Adding a dataset to BigQuery](adding_dataset.md)
+* [Use BigQuery ML](bigquery_ml.md)
 
 
